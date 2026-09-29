@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .name{
+            position: absolute;
+        }
+        .email{
+            position: absolute;
+            margin-top: -2px;
+        }
+        .pass{
+            position: relative;
+            margin-top: -4px;
+        }
+        .emotion{
+            margin-left: 101px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Login details</legend>
+            <div class="name">
+            <label style="margin-left: 50px;" for="name">Name:</label>
+            <input type="text" style="margin-left: 50px;" name="name" id="name">
+            </div>
+            <br>
+            <br>
+            <div class="email">
+             <label style="margin-left: 50px;" for="email">Email:</label>
+            <input type="email" style="margin-left: 50px;" name="email" id="email">
+            </div>
+            <br>
+            <br>
+            <div class="pass">
+             <label style="margin-left: 50px;" for="pass">Password:</label>
+            <input type="password" style="margin-left: 50px;" name="pass" id="pass">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Your feedback</legend>
+            <p style="margin-left: 50px;">Please check all the emotions that apply to you:</p>
+            <div class="emotion">
+            <label for="angry">Angry</label>
+            <input type="checkbox" style="margin-left: 50px;" name="emotion" id="angry">
+            <br>
+            <br>
+            <label for="sad">Sad</label>
+            <input type="checkbox" style="margin-left: 50px;" name="emotion" id="sad">
+            <br>
+            <br>
+            <label for="happy">Happy</label>
+            <input type="checkbox" style="margin-left: 50px;" name="emotion" id="happy">
+            <br>
+            <br>
+            <label for="Ambivalent">Ambivalent</label>
+            <input type="checkbox" style="margin-left: 50px;" name="emotion" id="Ambivalent">
+            <p style="margin-left: -48px;">How satisfied were you with our service?</p>
+            <label for="very-satisfied">Very satisfied</label>
+            <input type="radio" style="margin-left: 50px;" name="emotion" id="very-satisfied">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
